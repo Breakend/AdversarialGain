@@ -4,3 +4,12 @@
 [submodule "ScrambleTests"]
 	path = ScrambleTests
 	url = git@github.com:ishita-dg/ScrambleTests.git
+[submodule "Seq2Sick"]
+	path = Seq2Sick
+	url = https://github.com/cmhcbb/Seq2Sick.git
+[submodule "WordAdver"]
+	path = WordAdver
+	url = https://github.com/AnyiRao/WordAdver.git
+[submodule "SentDataPre"]
+	path = SentDataPre
+	url = https://github.com/AnyiRao/SentDataPre.git

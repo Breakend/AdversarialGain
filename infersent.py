@@ -10,14 +10,13 @@ import matplotlib
 import random
 import numpy as np
 import torch
+from utils import cosine
 import bootstrapped.bootstrap as bs
 import bootstrapped.compare_functions as bs_compare
 import bootstrapped.stats_functions as bs_stats
 GLOVE_PATH = './Infersent/dataset/GloVe/glove.840B.300d.txt'
 INFERSENT_PRETRAINED_PATH = './Infersent/encoder/infersent.allnli.pickle'
 
-def cosine(u, v):
-    return np.dot(u, v) / (np.linalg.norm(u) * np.linalg.norm(v))
 
 def main(arguments):
     sys.path.append('./Infersent/')
